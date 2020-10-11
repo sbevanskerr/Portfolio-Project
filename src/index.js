@@ -5,6 +5,7 @@ import './index.css';
 import Navigation from './Navigation';
 import Header from './Header';
 import * as serviceWorker from './serviceWorker';
+import Services from './Services'
 
 class App extends Component {
   render(){
@@ -12,7 +13,7 @@ class App extends Component {
       <div>
       <Navigation logoTitle = "Sam Bevans-Kerr" />
       <Header title = "Stylish Portfolio" button ="Learn More" />
-      <Header />
+      <Services />
       </div>
 
     );
