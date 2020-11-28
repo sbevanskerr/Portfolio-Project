@@ -10,6 +10,7 @@ class Contact extends Component {
         <p>Email: sam-bk@outlook.com</p>
         <p>Phone: 904-614-7399</p>
         <p>Github: github.com/sbevanskerr</p>
+        <p>Hi Carter!</p>
       </div>
       </nav>
     );
