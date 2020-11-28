@@ -1,4 +1,9 @@
 import React, {Component} from 'react';
+import {
+  Route,
+  NavLink,
+  HashRouter
+} from "react-router-dom";
 import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
@@ -6,21 +11,24 @@ import Navigation from './Navigation';
 import Header from './Header';
 import * as serviceWorker from './serviceWorker';
 import Services from './Services'
+import Home from "./Home";
+import Stuff from "./Stuff";
+import Contact from "./Contact";
 
 class App extends Component {
   render(){
     return(
-      <div>
-      <Navigation logoTitle = "Sam Bevans-Kerr" />
-      <Header title = "Stylish Portfolio" button ="Learn More" />
-      <Services />
-      </div>
+      <HashRouter>
+        <Navigation logoTitle = "SBK Portfolio" />
 
+        <main> 
+          <Route exact path="/" component={Home} />
+          <Route path="/projects" component={Stuff} />
+          <Route path="/contact" component={Contact} />  
+        </main>
+      </HashRouter>
     );
-
   }
-
-
 }
 
 ReactDOM.render(
@@ -30,7 +38,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();

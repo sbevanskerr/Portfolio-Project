@@ -9,8 +9,8 @@ class Services extends Component{
         return(
 
             <div className = "services">
-                <h3>services</h3>
-                <h2>What We Offer</h2>
+                <h3>skills</h3>
+                <h2>What I Do</h2>
                 <div className = "row">
                     <Icons myIcon = {iconObj[0].icon} myTitle = {iconObj[0].title} 
                     myDescription = {iconObj[0].description} />
@@ -37,23 +37,23 @@ class Services extends Component{
 const iconObj = [
     {
         icon: <ion-icon name="phone-portrait"></ion-icon>,
-        title: 'Responsive',
-        description: 'That\'s a lie!'
+        title: 'Programmer',
+        description: 'C++, Java, Javascript'
     },
     {
-        icon: <ion-icon name="brush"></ion-icon>,
-        title: 'Redesigned',
-        description: 'Just for Sam.'
+        icon: <ion-icon name="build-outline"></ion-icon>,
+        title: 'Engineer',
+        description: 'Software and Development'
     },
     {
-        icon: <ion-icon name="thumbs-up"></ion-icon>,
-        title: 'Favorited',
-        description: 'Jolteon is my favorite Pokémon'
+        icon: <ion-icon name="musical-notes-outline"></ion-icon>,
+        title: 'Musician',
+        description: 'Piano Player'
     },
     {
-        icon: <ion-icon name="help"></ion-icon>,
-        title: 'Question',
-        description: 'Who am I'
+        icon: <ion-icon name="play-circle-outline"></ion-icon>,
+        title: 'Producer',
+        description: 'Music Composition and Production'
     }
     
 ];

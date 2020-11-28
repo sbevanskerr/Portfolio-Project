@@ -1,5 +1,5 @@
 import React from 'react';
-import Background from './img/bg-masthead.jpg';
+import Background from './img/amber.jpg';
 
 import './Header.css';
 
@@ -16,10 +16,8 @@ class Header extends React.Component {
 
             <header style={myStyles}>
                 <h1>{this.props.title}</h1>
-                <p>Bootstrap Theme Hours</p>
-                <a href="#button"> {this.props.button}</a>
-    
-            
+                <p>This Will Eventually Be My Portfolio</p>
+                <a href="#button"> {this.props.button}</a>  
             </header>
 
 
