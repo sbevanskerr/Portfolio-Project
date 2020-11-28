@@ -22,11 +22,11 @@ class Navigation extends Component {
 <HashRouter>
   <nav>
     <h2 className = "logo" >{this.props.logoTitle}</h2>
-    <u1>
+    <ul>
       <li><NavLink to="/">Home</NavLink></li>
       <li><NavLink to="/Projects">Projects</NavLink></li>
       <li><NavLink to="/contact">Contact</NavLink></li>
-    </u1>
+    </ul>
   </nav>
 </HashRouter>
     );
