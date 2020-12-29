@@ -24,7 +24,7 @@ class Navigation extends Component {
     <h2 className = "logo" >{this.props.logoTitle}</h2>
     <ul>
       <li><NavLink to="/">Home</NavLink></li>
-      <li><NavLink to="/Projects">Projects</NavLink></li>
+      <li><NavLink to="/projects">Projects</NavLink></li>
       <li><NavLink to="/contact">Contact</NavLink></li>
     </ul>
   </nav>

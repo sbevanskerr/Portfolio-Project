@@ -1,0 +1,15 @@
+body {
+   
+    justify-content: space-between;
+    background-color: #ADD8E6;
+    align-items: center;
+    text-align: center;
+
+}
+
+.stuff  {
+
+        display: table;
+        margin: 0 auto;     
+
+}
