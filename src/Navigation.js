@@ -6,6 +6,8 @@ import {
   HashRouter
 } from "react-router-dom";
 
+
+
 class Navigation extends Component {
   render() {
     //array to hold navlink names, doesn't work for default home so we wont keep this for now
@@ -28,6 +30,7 @@ class Navigation extends Component {
       <li><NavLink to="/contact">Contact</NavLink></li>
     </ul>
   </nav>
+
 </HashRouter>
     );
   }

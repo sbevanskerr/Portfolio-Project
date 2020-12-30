@@ -6,16 +6,28 @@ import Blend from './img/blend.png';
 import GNV from './img/gnv.png';
 import Web from './img/web.png';
 
-
+const ColoredLine = ({ color }) => (
+  <hr
+      style={{
+          color: color,
+          backgroundColor: color,
+          height: 5
+  
+      }}
+  />
+);
 
  
 class Stuff extends Component {
   render() {
     return (
       <body>
+        
       <div>
-        <h2>PROJECTS</h2>
+        <h1>PROJECTS</h1>
+        
         <p>The source code for each of these projects can be found on my Github.</p>
+        <ColoredLine color="#1d809f" />
 
           <h4>Human Computer Interaction Final Project: Blend!</h4>
           <img src={Blend} alt="Logo" height = "250" width = "400"></img>
