@@ -38,7 +38,7 @@ class Contact extends Component {
      
         <span><ion-icon name="logo-octocat" class = "icon"></ion-icon></span>
         <p></p>
-        <a href = "github.com/sbevanskerr" class ="lnk"> Github </a>
+        <a href = "https://www.github.com/sbevanskerr" class ="lnk"> Github </a>
         <p></p>
         
   
