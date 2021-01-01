@@ -12,14 +12,18 @@ nav {
     font-size: 30px;
     color: #fff;
 
+    /*
     white-space:nowrap;
     text-overflow:ellipsis;
+    */
 }
 
 nav ul {
     list-style: none;
+    /*
     white-space: nowrap;
     text-overflow:ellipsis;
+    */
 }
 
 nav ul li {
