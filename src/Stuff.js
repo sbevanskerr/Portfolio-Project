@@ -40,7 +40,7 @@ class Stuff extends Component {
           </ul>
 
           <h4>Software Engineering Final Project: myGNV Resource Finder</h4>
-          <img src={GNV} alt="Logo" height = "250" width = "400"></img>
+          <img src={GNV} alt="Logo" height = "250" width = "450"></img>
 
           <p></p>
           <ul class = "stuff">
@@ -70,7 +70,7 @@ class Stuff extends Component {
           </ul>
 
           <h4>This Website!</h4>
-          <img src={Web} alt="Logo" height = "250" width = "400"></img>
+          <img src={Web} alt="Logo" height = "250" width = "450"></img>
 
           <p></p>
           <ul class = "stuff">

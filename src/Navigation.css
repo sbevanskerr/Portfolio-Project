@@ -5,21 +5,28 @@ nav {
     align-items: center;
     padding-right: 20px;
     padding-left: 20px;
+
 }
 
 .logo {
     font-size: 30px;
     color: #fff;
+
+    white-space:nowrap;
+    text-overflow:ellipsis;
 }
 
 nav ul {
     list-style: none;
+    white-space: nowrap;
+    text-overflow:ellipsis;
 }
 
 nav ul li {
     width: auto;
     display: inline-block;
     margin-right: 25px;
+   
 }
 
 nav ul li a {
@@ -27,8 +34,11 @@ nav ul li a {
     color: #fff;
     font-weight: bold;
     font-size: 20px;
+
 }
 
+/*
 .navb:hover{
     background-color:#1d809f;
 }
+*/

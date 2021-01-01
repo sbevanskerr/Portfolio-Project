@@ -29,7 +29,10 @@ class Contact extends Component {
         <p></p>
         <p></p>
         <span> Email: </span>
-        <a href = "sam-bk@outlook.com" class = "lnk">sam-bk@outlook.com</a>
+        <a class = "lnk">sam-bk@outlook.com</a>
+        <br/>
+        <span> or </span>
+        <a class = "lnk">sbevanskerr@ufl.edu</a>
         <p></p>
         <span> Phone: </span>
         <a class = "lnk" >904-614-7399</a>

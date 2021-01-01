@@ -7,7 +7,9 @@ class Home extends Component {
     return (
     
       <div>
+        
         <Header title = "Sam Bevans-Kerr" button ="Download Resumé" />
+        
         <Services /> 
       </div>
     );

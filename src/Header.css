@@ -1,20 +1,29 @@
 header {
     margin: 0 auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 220px;
+
+    
+    
 }
 
 header h1 {
     margin: 0;
     font-size: 4rem;
     color: rgb(33, 37, 41);
+
+    white-space: nowrap;
+    text-overflow:ellipsis;
 }
 
 header p{
     font-weight: 700;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     color: rgb(33, 37, 41);
     margin-bottom: 30px;
+
+    
 }
 
 header a {
@@ -27,4 +36,14 @@ header a {
     text-decoration: none;
     border-radius: .25rem;
     display: inline-block;
+}
+
+.subtext {
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+
+.finalsubtext{
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
