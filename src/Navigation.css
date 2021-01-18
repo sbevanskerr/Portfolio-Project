@@ -8,6 +8,13 @@ nav {
 
 }
 
+@media screen and (max-width: 600px) {
+    nav {
+      padding-right: 15px;
+      padding-left: 15px
+    }
+  }
+
 .logo {
     font-size: 30px;
     color: #fff;
@@ -17,6 +24,13 @@ nav {
     text-overflow:ellipsis;
     */
 }
+
+@media screen and (max-width: 600px) {
+    .logo {
+      font-size: 25px;
+
+    }
+  }
 
 nav ul {
     list-style: none;
