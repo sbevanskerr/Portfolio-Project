@@ -25,7 +25,6 @@ class Services extends Component{
                     myDescription = {iconObj[3].description} />
                     
 
-            
                 </div>
             </div>
 

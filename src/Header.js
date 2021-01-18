@@ -10,7 +10,6 @@ const myStyles = {
     backgroundSize: 'cover'
 }
 
-
 class Header extends React.Component {
 
     
