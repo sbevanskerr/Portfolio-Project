@@ -26,6 +26,12 @@
     justify-content: space-around;
 }
 
+@media screen and (max-width: 600px) {
+    .services > .row{
+      display: inline;
+    }
+  }
+
 .services > .row span {
     background-color: #fff;
     width: 112px;
