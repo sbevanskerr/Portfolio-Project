@@ -35,7 +35,8 @@ nav ul li {
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
     nav ul li {
-      margin-right: 8px;
+      margin-right: 6px;
+      margin-left: 6px
     }
   }
 
