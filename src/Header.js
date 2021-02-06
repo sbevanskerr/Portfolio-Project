@@ -22,8 +22,8 @@ class Header extends React.Component {
                 <img src={Cat} alt="Logo" height = "300" width = "300"></img>
                 <h1>{this.props.title}</h1>
                 <p class = "subtext">Major: Digital Arts and Sciences</p>
-                <p class = "subtext">Herbert Wertheim Colege of Engineering</p>
-                <p class = "finalsubtext">Univeristy of Florida</p>
+                <p class = "subtext">Herbert Wertheim College of Engineering</p>
+                <p class = "finalsubtext">University of Florida</p>
                 <a href= {pdf} download> {this.props.button}</a>  
           
 
